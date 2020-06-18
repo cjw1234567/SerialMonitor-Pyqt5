@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>640</width>
+                <height>480</height>
+            </rect>
+        </property>
+        <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+            </sizepolicy>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>640</width>
+                <height>480</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QComboBox" name="PortCbox">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>30</y>
+                        <width>151</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>COM1</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM2</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM3</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM4</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM5</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM6</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM7</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM8</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM9</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>COM10</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QPushButton" name="Connectbtn">
+                <property name="geometry">
+                    <rect>
+                        <x>200</x>
+                        <y>30</y>
+                        <width>131</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Connect</string>
+                </property>
+            </widget>
+            <widget class="QTextBrowser" name="SerialMon">
+                <property name="geometry">
+                    <rect>
+                        <x>360</x>
+                        <y>20</y>
+                        <width>256</width>
+                        <height>192</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>330</x>
+                        <y>230</y>
+                        <width>271</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="Sendbtn">
+                <property name="geometry">
+                    <rect>
+                        <x>530</x>
+                        <y>260</y>
+                        <width>75</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Send</string>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="BaudrateCbox">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>80</y>
+                        <width>151</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>4800</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>9600</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>14400</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>19200</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>28800</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>38400</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>57600</string>
+                    </property>
+                </item>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>640</width>
+                    <height>21</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
